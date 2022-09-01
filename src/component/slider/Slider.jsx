@@ -21,34 +21,34 @@ function Slider() {
     selectSliderBox3?.classList.remove("carousel-item-left");
   }
 
-  function onClickBlockRight() {
-    const selectControlPrev = document.querySelector(".carousel-control-prev");
-    const selectControlNext = document.querySelector(".carousel-control-next");
-    const selectedItem = document.querySelector(".selected-item-1");
-    const selectedItem2 = document.querySelector(".selected-item-2");
+  // function onClickBlockRight() {
+  //   const selectControlPrev = document.querySelector(".carousel-control-prev");
+  //   const selectControlNext = document.querySelector(".carousel-control-next");
+  //   const selectedItem = document.querySelector(".selected-item-1");
+  //   const selectedItem2 = document.querySelector(".selected-item-2");
 
-    if (selectedItem?.classList.contains("active")) {
-      selectControlPrev?.classList.add("display-block");
-    }
+  //   if (selectedItem?.classList.contains("active")) {
+  //     selectControlPrev?.classList.add("display-block");
+  //   }
 
-    if (selectedItem2?.classList.contains("active")) {
-      selectControlNext?.classList.add("display-none");
-    }
-  }
+  //   if (selectedItem2?.classList.contains("active")) {
+  //     selectControlNext?.classList.add("display-none");
+  //   }
+  // }
 
-  function onClickBlockLeft() {
-    const selectControlPrev = document.querySelector(".carousel-control-prev");
-    const selectControlNext = document.querySelector(".carousel-control-next");
-    const selectedItem2 = document.querySelector(".selected-item-2");
-    const selectedItem3 = document.querySelector(".selected-item-3");
-    if (selectedItem2?.classList.contains("active")) {
-      selectControlPrev?.classList.remove("display-block");
-    }
+  // function onClickBlockLeft() {
+  //   const selectControlPrev = document.querySelector(".carousel-control-prev");
+  //   const selectControlNext = document.querySelector(".carousel-control-next");
+  //   const selectedItem2 = document.querySelector(".selected-item-2");
+  //   const selectedItem3 = document.querySelector(".selected-item-3");
+  //   if (selectedItem2?.classList.contains("active")) {
+  //     selectControlPrev?.classList.remove("display-block");
+  //   }
 
-    if (selectedItem3?.classList.contains("active")) {
-      selectControlNext?.classList.remove("display-none");
-    }
-  }
+  //   if (selectedItem3?.classList.contains("active")) {
+  //     selectControlNext?.classList.remove("display-none");
+  //   }
+  // }
 
   return (
     <div className="main">
@@ -82,7 +82,7 @@ function Slider() {
             data-bs-slide="prev"
             className="carousel-control-prev display-none"
             onMouseEnter={onClickLeft}
-            onClick={onClickBlockLeft}
+            // onClick={onClickBlockLeft}
           />
         </button>
         <button
@@ -91,7 +91,7 @@ function Slider() {
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide="next"
           onMouseEnter={onClickRight}
-          onClick={onClickBlockRight}
+          // onClick={onClickBlockRight}
         >
           Click
         </button>
