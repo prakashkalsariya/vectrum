@@ -1,6 +1,5 @@
-import React from "react";
+
 import "../../App.scss";
-import { useState } from "react";
 
 function Slider() {
   function onClickLeft() {
@@ -51,7 +50,7 @@ function Slider() {
           className="carousel-control-prev btn-1 "
           type="button"
           data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev-slow"
+          data-bs-slide="prev"
           onMouseEnter={onClickLeft}
         >
           <img src="left-arrow.svg" />

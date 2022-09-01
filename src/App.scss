@@ -12,80 +12,52 @@
 }
 
 @media only screen and (max-width: 1440px) {
-  .main{
+  .main {
     width: 30%;
   }
 }
 
 @media only screen and (max-width: 1000px) {
-  .main{
+  .main {
     width: 45%;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .main{
+  .main {
     width: 80%;
   }
 }
 
 @media only screen and (max-width: 400px) {
-  .main{
+  .main {
     width: 98%;
   }
-}
-
-
-.box-container {
-  width: 400px;
-  height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  overflow: hidden;
-  background-color: white;
-  margin: 10px;
-}
-
-h2 {
-  margin: 0px;
 }
 
 h4 {
   margin-left: 10px;
 }
 
-.box-item {
-  display: flex;
-  flex-direction: row;
-  scroll-behavior: smooth;
-  min-width: 100%;
-  transition: all 0.4s ease-out;
-}
-
-.box{
+.box {
   max-width: 90%;
   height: 150px;
   border: 1px solid lightgray;
   margin: 10px;
   padding: 5px;
-  
   margin-left: 13px;
   border-radius: 12px;
 }
 
-.box-1{
+.box-1 {
   background-color: lightblue;
 }
 
 .box-2 {
-  
   background-color: lightgreen;
 }
 
 .box-3 {
-  
   background-color: lightcoral;
 }
 
@@ -111,10 +83,10 @@ h4 {
   height: 25px;
 }
 
-.carousel-item{
+.carousel-item {
   transition: all 0.4s ease-in-out !important;
 }
 
-.carousel-item-left{
+.carousel-item-left {
   transition: all 1s ease-in-out !important;
 }
