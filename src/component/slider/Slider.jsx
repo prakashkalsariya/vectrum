@@ -53,7 +53,7 @@ function Slider() {
           data-bs-slide="prev"
           onMouseEnter={onClickLeft}
         >
-          <img src="left-arrow.svg" />
+          <img src="left-arrow.svg" alt="left-arrow"/>
         </button>
         <button
           className="carousel-control-next btn-2"
