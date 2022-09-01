@@ -46,15 +46,16 @@ function Slider() {
             </div>
           </div>
         </div>
-        <button
-          className="carousel-control-prev btn-1 "
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-          onMouseEnter={onClickLeft}
-        >
-          <img src="left-arrow.svg" alt="left-arrow"/>
-        </button>
+       <button className="btn-1">
+
+      
+          <img src="left-arrow.svg" alt="left-arrow" 
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+            className="carousel-control-prev"
+            onMouseEnter={onClickLeft}
+          />
+       </button>
         <button
           className="carousel-control-next btn-2"
           type="button"
