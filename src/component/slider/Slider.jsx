@@ -51,6 +51,8 @@ function Slider() {
   // }
 
   return (
+    <div className="body">
+
     <div className="main">
       <div
         id="carouselExampleCaptions"
@@ -96,6 +98,7 @@ function Slider() {
           Click
         </button>
       </div>
+    </div>
     </div>
   );
 }
