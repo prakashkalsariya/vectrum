@@ -60,17 +60,17 @@ function Slider() {
         <div className="carousel-inner">
           <div className="carousel-item active item-1 selected-item-1">
             <div className="box-1 box d-block w-100">
-              <h4>Contain-1</h4>
+              <h4>Input mobile number</h4>
             </div>
           </div>
           <div className="carousel-item item-2 selected-item-2">
             <div className="box-2 box d-block w-100">
-              <h4>Contain-2</h4>
+              <h4>Input email address</h4>
             </div>
           </div>
           <div className="carousel-item item-3 selected-item-3">
             <div className="box-3 box d-block w-100">
-              <h4>Contain-3</h4>
+              <h4>Input 5-digit PIN</h4>
             </div>
           </div>
         </div>
@@ -93,7 +93,7 @@ function Slider() {
           onMouseEnter={onClickRight}
           // onClick={onClickBlockRight}
         >
-          Click
+          Confirm
         </button>
       </div>
     </div>
