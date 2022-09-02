@@ -44,14 +44,14 @@ function RotateArrow() {
         temporibus numquam doloribus facere praesentium, adipisci, ab officia
         consequuntur id eligendi, ullam nesciunt.
         <span className="more-para"> ...More </span>
-        {/* <span className="hidden-para display-none">
+        <span className="hidden-para display-none">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit
           ducimus molestias totam amet aut numquam assumenda? Eaque error
           laborum doloremque unde quod architecto perferendis sapiente quisquam,
           voluptatum, delectus praesentium deleniti vitae fugit libero id
           tempore consectetur dicta nostrum. Ea vel ratione iusto. Eligendi
           necessitatibus architecto fugiat, illo voluptas illum? Tempore!
-        </span> */}
+        </span>
       </p>
     </div>
   );
