@@ -1,0 +1,47 @@
+.rotating-arrow-container {
+  margin: 20px;
+  padding: 20px;
+}
+
+.heading-container {
+  display: flex;
+  align-items: center;
+
+  h3 {
+    color: rgba(159, 162, 169, 1);
+    margin: 0px;
+  }
+  img {
+    width: 25px;
+    height: 25px;
+    margin-top: 9px;
+    margin-left: 15px;
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+.main-para {
+  margin-top: 20px;
+  opacity: 1;
+  color: rgba(97, 99, 103, 1);
+
+  .more-para {
+    color: rgba(159, 162, 169, 1);
+    font-size: 1.2rem;
+  }
+  .hidden-para {
+   
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+  }
+}
+
+.display-none {
+  display: none;
+  opacity: 0;
+  height: 0px;
+}
+
+.trasition-img {
+  transform: rotate(90deg);
+}
