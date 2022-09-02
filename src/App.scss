@@ -77,10 +77,13 @@ h4 {
   border-radius: 5.55px;
   height: 46px;
   margin-top: 50px;
-  right: 150px;
+  right: 106px;
   top: 170px;
   width: 161px;
   color:black;
+  &:hover{
+    color: black;
+  }
 }
 
 .btn-1 img {
