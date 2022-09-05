@@ -2,7 +2,7 @@ import React from "react";
 import { IQuestion } from "../../@types/IQuestion";
 import QuestionBox from "./QuestionBox";
 
-import "./Home.scss";
+import "./RotatingArrow.scss";
 
 const questions: IQuestion[] = [
   
@@ -20,7 +20,7 @@ const questions: IQuestion[] = [
   }
 ];
 
-const Home = () => {
+const RotatingArrow = () => {
   return (
     <div className="home-screen">
       <div className="content-container">
@@ -36,4 +36,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default RotatingArrow;

@@ -1,13 +1,20 @@
 import "./App.scss";
 import Slider from "./component/slider/Slider";
-import Home from "./pages/home/Home";
-
+import RotateArrow from "./component/rotateArrow/RotateArrow";
+import RotatingArrow from "./pages/home/RotatingArrow";
+import { Routes, Route } from "react-router-dom";
+import SideHeader from "./component/header/SideHeader";
+import Home from "./component/home/Home";
 
 function App() {
   return (
     <div className="main-container">
-      <Slider /> 
-      <Home/>
+      <SideHeader />
+      <Routes>
+      <Route path="/" element={<Home />}></Route>
+        <Route path="slider" element={<Slider />}></Route>
+        <Route path="rotating-arrow" element={<RotatingArrow />}></Route>
+      </Routes>
     </div>
   );
 }

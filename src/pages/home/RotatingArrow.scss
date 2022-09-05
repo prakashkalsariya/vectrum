@@ -1,5 +1,11 @@
 .home-screen {
   text-align: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  margin-top: 50px;
 
   .content-container {
     max-width: 1240px;
