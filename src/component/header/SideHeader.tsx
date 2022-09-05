@@ -1,10 +1,13 @@
 import React from 'react'
 import './SideHeader.scss'
 import { NavLink } from 'react-router-dom'
+import { useState } from 'react'
 
 function SideHeader() {
-
-  
+const [navLink, setNavLink] = useState(true)
+  function navClickHandler(){
+    setNavLink(false)
+  }
   return (
     <div>
 
@@ -24,14 +27,14 @@ function SideHeader() {
       <div className="offcanvas-body">
         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3" >
         <li className="nav-item">
-            <NavLink className="nav-link" to="/" >Home</NavLink>
+            <NavLink className={`nav-link   ${ navLink? "active" : ""}`} to="/" >Home</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" aria-current="true" to="slider">Slider</NavLink>
+            <NavLink className="nav-link" aria-current="true" to="slider" onClick={navClickHandler}>Slider</NavLink>
           </li>
          
           <li className="nav-item">
-            <NavLink className="nav-link" to="rotating-arrow" >Rotating Arrow</NavLink>
+            <NavLink className="nav-link" to="rotating-arrow" onClick={navClickHandler}>Rotating Arrow</NavLink>
           </li>
         </ul>
       </div>
