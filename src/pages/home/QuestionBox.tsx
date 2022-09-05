@@ -115,7 +115,7 @@ const QuestionBox = ({ questionData }: IQuestionBox) => {
           <div className={`hidden-answere-text hidden-${answereTextClass}`}>
             {questionData.answere}
           </div>
-          <div className="read-more-container" onClick={toggleReadMore}>
+          <div className="read-more-container" >
            
             <p
               className={`read-more-button text-secondary-dark ${readMoreButtonClass}`}
